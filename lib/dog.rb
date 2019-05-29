@@ -15,7 +15,7 @@ class Dog
   end
   
   def self.all
-    @@all.each 
+    @@all.each {|name| prints 
   end
   
 end
