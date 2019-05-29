@@ -15,8 +15,7 @@ class Dog
   end
   
   def self.all
-    
-    @@all.split(",")
+    @@all.each 
   end
   
 end
